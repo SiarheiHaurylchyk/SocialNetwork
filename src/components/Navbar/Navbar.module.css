@@ -1,0 +1,26 @@
+.nav {
+    grid-area: n;
+    background-color: #151515;
+    margin-top: 60px;
+}
+
+.item {
+    margin: 5px 0 0 0;
+}
+
+
+
+.item:last-child {
+    margin-top: 25px;
+}
+
+.item a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+div a.active {
+    color: gold;
+}

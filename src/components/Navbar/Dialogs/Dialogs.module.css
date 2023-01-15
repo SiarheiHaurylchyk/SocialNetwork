@@ -1,0 +1,38 @@
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    color: white;
+    margin-top: 60px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.dialogs_item{
+    margin: 20px 0 0 20px;
+}
+
+div a.active {
+    color: gold;
+    text-decoration: none;
+
+}
+
+.messag {
+    padding: 10px;
+}
+
+.message_item {
+    padding: 10px;
+
+}
+
+.nav {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.otst{
+    margin-bottom: 20px;
+}
